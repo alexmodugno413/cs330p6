@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="utf-8">
+        <title>Contact</title>
+    </head>
+    <body>
+        <nav role="navigation" class="top-nav">
+            <ul>
+                <li tabindex="0" id="name">Alexander Modugno</li>
+                <!-- <li tabindex="1" id="notseen">______________________</li> -->
+                <li nav aria-current="page" tabindex="2"><a href="homepage.html">HOME</a></li>
+                <li tabindex="3"><a href="resume.html">RESUME</a></li>
+                <li tabindex="4"><a href="biography.html">BIOGRAPHY</a></li>
+                <li tabindex="5"><a href="contact.html" style="color: orange">CONTACT</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1 id="contactheader">Please feel free to reach out! Here is my contact information.</h1>
+            <br>
+            <div>
+                <img id="contactphoto" src="contactphoto.png" alt="Add more detail">
+            </div>
+            <div class="contact-questions">
+                <!-- <p id="contact-question-intro"><b><i>View questions/answers related to my resume:</i></b></p> -->
+                <p class="contact-question"><b>Full Name:</b></p>
+                <p class="contact-answer">Alexander Modugno</p>
+                <p class="contact-question"><b>School Email:</b></p>
+                <p class="contact-answer">AlexModugno2024@u.northwestern.edu</p>
+                <p class="contact-question"><b>Personal Email:</b></p>
+                <p class="contact-answer">alexmodugno413@gmail.com</p>
+                <p class="contact-question"><b>Phone Number:</b></p>
+                <p class="contact-answer">847-814-7947</p>
+                <p class="contact-question"><b>Address:</b></p>
+                <p class="contact-answer">2149 Sherman Ave, Evanston, IL 60201</p>
+            </div>
+            <!-- contact form -->
+            <div class="contact-form">
+                <p id="contact-form-intro"><b><i>Email shortcut:</i></b></p>
+                <fieldset aria-label="message_box" action="mailto:alexmodugno413@gmail.com" method="post" enctype="text/plain">
+                    <legend><b>Your Information</b></legend>
+                    <form action="mailto:alexmodugno413@gmail.com" method="post" enctype="text/plain">
+                        <div>
+                            <label for="viewer_name"> Name:</label> <br>
+                            <input type="text" name="viewer_name" id="viewer_name" aria-labelledby="name_field">
+                        </div> <br>
+                        <div>
+                            <label for="viewer_email">Email:</label><br>
+                            <input type="text" name="viewier_email" id="email" aria-labelledby="email_field">
+                        </div> <br>
+                        <div>
+                            <label for="viewer_message">Message:</label><br>
+                            <input type="text" name="viewer_message" id="message" aria-labelledby="message_field">
+                        </div> <br>
+                        <input type="submit" value="Send email" id="submit-button">
+                    </form>
+                </fieldset>
+            </div>
+        </main>
+    <script src="index.js"></script>
+    </body>
+</html>

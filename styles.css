@@ -1,0 +1,560 @@
+nav.top-nav {
+    background-color: #088F8F;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 815px;
+    z-index: 5;
+    /* box-shadow: 0px 4px 4px #ff5349; */
+}
+
+/* nav [aria-current="page"] {
+    background-color: #bbb;
+    color: #000;
+    border-bottom: .25em solid #444;
+} */
+
+main {
+    margin-top: 220px;
+    margin-left: 3.5em;
+}
+
+#introsentence1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#introsentence2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#name {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+    text-decoration-color: #088F8F;
+}
+
+#notseen {
+    color: #088F8F;
+    text-decoration: underline;
+    text-decoration-color: #088F8F;
+}
+
+#projectheader {
+    color: #056b6b;
+    /* text-align: center; */
+}
+
+/* #homephoto {
+    margin-left: 39em;
+    margin-top: -180px;
+    border-radius: 40px;
+} */
+
+.homephoto {
+    margin-top: -90px;
+    margin-right: 10px;
+    float: right;
+}
+
+#professionalphoto {
+    border-radius: 40px;
+}
+
+nav.top-nav a:link {
+    text-decoration: none;
+    color: black;
+}
+
+nav.top-nav a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+nav.top-nav a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+nav.top-nav a:active {
+    text-decoration: none;
+    color: orange;
+}
+
+nav.top-nav li {
+    display: inline-block;
+    /* font-family: sans-serif; */
+    font-family: Helvetica, sans-serif;
+    /* font-weight: bold; */
+    font-size: 18px;
+    margin: 20px;
+    user-select: none;
+}
+
+nav.top-nav li:hover {
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+
+nav.top-nav ul {
+    list-style: none;
+}
+
+nav.top-nav .pulldown-menu li {
+    display: block;
+}
+
+nav.top-nav .pulldown-menu {
+    display: none;
+    position: absolute;
+    border: 1px solid white;
+    background-color: white;
+}
+
+nav.top-nav li:hover .pulldown-menu {
+    display: block;
+}
+
+/* #projectinfo-button1 {
+    background-color: orange; 
+    margin-left: 10px;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+} */
+
+/* #projectinfo-button2 {
+    background-color: #4CAF50; 
+    margin-left: 10px;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+} */
+
+/* #projectinfo-button1:hover {
+    background-color: #4CAF50;
+} */
+
+/* #projectinfo-button2:hover {
+    background-color: orange;
+} */
+
+.projectinfo {
+    margin-top: 200px;
+}
+
+.project1 {
+    margin-top: 7px;
+	margin-left: 0px;
+    margin-right: 100px;
+	height: 750px;
+	width: 1200px;
+	border: 1px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	background: rgb(245, 225, 225);
+}
+
+.project1 h2 {
+    position: relative;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 28px;
+    color: rgb(116, 76, 6);
+}
+
+.project1 h3 {
+    position: relative;
+    margin-top: 40px;
+    margin-left: 30px;
+    font-size: 26px;
+    color: black;
+}
+
+#project1-text {
+    right: 2px;
+    width: 50%;
+}
+
+.project1-text-details {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 0px;
+    font-size: 20px;
+    color: black;
+}
+
+#project1-images {
+    margin-top: -578px;
+    margin-left: 680px;
+}
+
+#project1-design-header {
+    position: relative;
+    font-size: 26px;
+    color: black;
+}
+
+#project1-images img {
+    position: relative;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: auto;
+    width: 60%;
+    border-radius: 40px;
+}
+
+#project1-button1 {
+    position: relative;
+    margin-top: 0px;
+    margin-left: 150px;
+}
+
+#project1-button3 {
+    position: relative;
+    margin-top: -20px;
+    margin-left: 410px;
+}
+
+#project1-video {
+    position: relative;
+    margin-left: 270px;
+    margin-top: -220px;
+}
+
+#project1-linktext {
+    font-size: 24px;
+    margin-left: 35px;
+    /* margin-left: 100px; */
+}
+
+.project1-link a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.project1-link a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.project1-link a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+.project1-link a:active {
+    text-decoration: none;
+    color: orange;
+}
+
+.project2 {
+    margin-top: 7px;
+	margin-left: 0px;
+    margin-right: 100px;
+	height: 800px;
+	width: 1200px;
+	border: 1px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	background: rgb(245, 225, 225);
+}
+
+.project2 h2 {
+    position: relative;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 28px;
+    color: rgb(116, 76, 6);
+}
+
+.project2 h3 {
+    position: relative;
+    margin-top: 40px;
+    margin-left: 30px;
+    font-size: 26px;
+    color: black;
+}
+
+#project2-text {
+    right: 2px;
+    width: 50%;
+}
+
+.project2-text-details {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 0px;
+    font-size: 20px;
+    color: black;
+}
+
+#project2-images {
+    margin-top: -640px;
+    margin-left: 680px;
+}
+
+#project2-design-header {
+    position: relative;
+    font-size: 26px;
+    color: black;
+}
+
+#project2-images img {
+    position: relative;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: auto;
+    width: 90%;
+    border-radius: 20px;
+}
+
+#project2-button1 {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 220px;
+}
+
+#project2-linktext {
+    font-size: 24px;
+    margin-left: 105px;
+    /* margin-left: 100px; */
+}
+
+.project2-link a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.project2-link a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.project2-link a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+.project2-link a:active {
+    text-decoration: none;
+    color: orange;
+}
+
+/* other page */
+
+#resumeheader {
+    margin-top: -50px;
+    color: #056b6b;
+}
+
+#resumephoto {
+    width: 800px;
+    height: auto;
+    border-radius: 20px;
+}
+
+#resumephoto {
+    width: 600px;
+    height: auto;
+}
+
+#resumelinktext {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    /* margin-left: 100px; */
+}
+
+.resumelink a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.resumelink a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.resumelink a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+.resumelink a:active {
+    text-decoration: none;
+    color: orange;
+}
+
+.resume-questions {
+    margin-top: -830px;
+    margin-left: 630px;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.resume-question {
+    color: #056b6b;
+}
+
+.resume-answer {
+    font-size: 18px;
+}
+
+#resume-question-intro {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+#biographyheader {
+    margin-top: -50px;
+    color: #056b6b;
+}
+
+#linkedinlinktext {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    /* margin-left: 100px; */
+}
+
+.linkedinlink a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.linkedinlink a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.linkedinlink a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+.linkedinlink a:active {
+    text-decoration: none;
+    color: orange;
+}
+
+#northwesternphoto {
+    width: 360px;
+    height: auto;
+    border-radius: 20px;
+}
+
+#northwesternphoto {
+    width: 260px;
+    height: auto;
+}
+
+#sfhsphoto {
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+}
+
+#sfhsphoto {
+    width: 300px;
+    height: auto;
+}
+
+.bio-questions {
+    margin-top: -450px;
+    margin-left: 630px;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.bio-question {
+    color: #056b6b;
+}
+
+.bio-answer {
+    font-size: 18px;
+}
+
+#bio-question-intro {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+#contactheader {
+    margin-top: -50px;
+    color: #056b6b;
+}
+
+#contactphoto {
+    width: 600px;
+    height: auto;
+    border-radius: 20px;
+}
+
+#contactphoto {
+    width: 400px;
+    height: auto;
+}
+
+.contact-questions {
+    margin-top: -600px;
+    margin-left: 430px;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.contact-question {
+    color: #056b6b;
+}
+
+.contact-answer {
+    font-size: 18px;
+}
+
+#contact-form-intro {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.contact-form {
+    margin-top: -420px;
+    margin-left: 810px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+#submit-button {
+    font-size: 18px;
+    font-family: 'Trebuchet MS';
+    padding: 0.5em;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #056b6b;
+}
+
+#submit-button:hover {
+    color: #056b6b;
+}
+

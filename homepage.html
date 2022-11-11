@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+        <meta charset="utf-8">
+        <title>Home</title>
+    </head>
+    <body>
+        <nav role="navigation" class="top-nav">
+            <ul>
+                <li tabindex="0" id="name">Alexander Modugno</li>
+                <!-- <li tabindex="1" id="notseen">______________________</li> -->
+                <li nav aria-current="page" tabindex="2"><a href="homepage.html" style="color: orange">HOME</a></li>
+                <li tabindex="3"><a href="resume.html">RESUME</a></li>
+                <li tabindex="4"><a href="biography.html">BIOGRAPHY</a></li>
+                <li tabindex="5"><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="homephoto">
+                <img id="professionalphoto" src="professionalphoto.png" alt="Professional photo of of Alex Modugno. He has brown hair and brown eyes, and is wearing a blue shirt. There is greenery in the background.">
+            </div>
+            <div>
+                <h1 id="introsentence1">Hi, I'm Alex Modugno.</h1>
+                <h2 id="introsentence2"><i>Follow the navigation menu above to learn more about me!</i></h2> 
+                <br>
+                <h2 id="projectheader">Scroll down to see examples of interesting projects I've worked on</h2> 
+            </div>
+            <!-- <h2>Add animation/slide show here</h2> -->
+            <div class="projectinfo">
+                <!-- <h2 id="projectheader">Scroll down to see examples of interesting projects I've worked on</h2> -->
+                <div class="project1">
+                    <h2>Assistive device for arthritis - created for an Engineering Design class at Northwestern</h2>
+                    <div id="project1-text">
+                        <h3><u>Problem the device addressed</u></h3>
+                        <p class="project1-text-details">My client, an elderly woman, was diagnosed with arthritis, which caused pain, swelling, and difficulty moving the joint. The client’s hands were disfigured and she found difficulty forming a closed fist, leading to an issue of reduced grip strength. She wanted to improve her ability to grip on cylindrical handles of varying diameter.</p>
+                        <h3><u>Methodology to develop design</u></h3>
+                        <p class="project1-text-details">The design our team created is called the adjustable grip mold. It is an assistive device consisting of two major components: <b>(1)</b> sponge rubber material padding and <b>(2)</b> a cotton glove with velcro fingertips.</p>
+                        <p class="project1-text-details">The <b>rubber padding</b> is composed of a closed cell neoprene sponge foam rubber sheet. It provides friction to objects/handles and is waterproof, adjustable, flexible, and strong.</p>
+                        <p class="project1-text-details">The <b>glove</b> is a black cotton jewelry inspection glove containing velcro dots on the fingertips that attach to the padding to allow the user more control while moving the padding. The padding reduces the user’s pain since it decreases the amount of grip needed to grab handles/objects.</p>
+                    </div>
+                    <div id="project1-images">
+                        <h3 id="project1-design-header"><u>Design images and demo</u></h3>
+                        <img id="project1-image" src="project1-image1.png" alt="Add more details">
+                        <video id="project1-video" width="320" height="240" muted>
+                            <source src="project1-video.mp4" type="video/mp4">
+                            Your browser doesn't support the video tag.
+                        </video>
+                        <div>
+                            <button id="project1-button1" onclick="previousImage()"><span class="material-icons">arrow_back</span></button>
+                            <button id="project1-button2" onclick="nextImage()"><span class="material-icons">arrow_forward</span></button>
+                        </div> 
+                        <button id="project1-button3" onclick="playOrPause()"><span id="project1-button3info" class="material-icons">play_arrow</span></button>
+                        <br> <br> <br> <br> <br> <br>
+                        <div class="project1-link">
+                            <a id="project1-linktext" href="https://drive.google.com/drive/u/1/folders/1E4Edo1Xv42amjjcUV6fdl1xAEM4l_2Lh" target="_blank"><b>Click here to view project documentation</b></a>
+                        </div>
+                    </div>
+                </div>
+                <br> <br>
+                <div class="project2">
+                    <h2>Design search algorithms to find the best way to travel between different places on a map - created for an Intro to AI class at Northwestern</h2>
+                    <div id="project2-text">
+                        <h3><u>Goal of the assignment</u></h3>
+                        <p class="project2-text-details">Create an implementation of Breadth-first Search (BFS), Depth-first Search (DFS), and the A* algorithm that all find the best way to travel between any pair of landmarks in a town. A comparative analysis of all three is done to select the best one.</p>
+                        <h3><u>Details about implementation</u></h3>
+                        <p class="project2-text-details">The <b>BFS</b> and <b>DFS</b> algorithms are given a time map, start location, and end location as input. The time map specifies the expected time it takes a driver to go from one landmark to a neigbhoring landmark. This map is in the form of a graph, and BFS and DFS are tree search algorithms operating on the graphs that the maps form.</p>
+                        <p class="project2-text-details">The <b>A*</b> algorithm is given a time map and distance map, which is the straight line distance between two points, as input. The A* algorithm uses these distances as a heuristic (how far one is from the destination). This means the distance from the start to your current location will be time-based, but the distance from your current location to the destination will be distance-based.</p>
+                        <p class="project2-text-details">The result that is returned is a list of strings (locations) that represent the fastest route between one location and another.</p>
+                    </div>
+                    <div id="project2-images">
+                        <h3 id="project2-design-header"><u>Map diagram - example of time map / distance map</u></h3>
+                        <img id="project2-image" src="project2-image1.png" alt="Add more details">
+                        <div>
+                            <button id="project2-button1" onclick="previousImage2()"><span class="material-icons">arrow_back</span></button>
+                            <button id="project2-button2" onclick="nextImage2()"><span class="material-icons">arrow_forward</span></button>
+                        </div> 
+                        <br> <br> <br>  
+                        <div class="project2-link">
+                            <a id="project2-linktext" href="https://drive.google.com/drive/u/1/folders/1kbrm3a5cNScOHWAf_ZNE9mdbW8L5qSiE" target="_blank"><b>Click here to view project files</b></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    <script src="index.js"></script>
+    </body>
+</html>
