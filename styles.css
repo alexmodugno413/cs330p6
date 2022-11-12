@@ -501,6 +501,35 @@ nav.top-nav li:hover .pulldown-menu {
     font-size: 18px;
 }
 
+#academictable {
+    margin-left: 628px;
+}
+
+#table-caption {
+    margin-left: -360px;
+    font-size: 22px;
+    color: #056b6b;
+}
+
+.column-header {
+    background-color: orange;
+    border-color: black;
+    font-size: 24px;
+}
+
+.row-header {
+    background-color: orange;
+    border-color: black;
+    font-size: 22px;
+}
+
+.content {
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(187, 184, 184);
+    border-color: black;
+}
+
 #contactheader {
     margin-top: -50px;
     color: #056b6b;
