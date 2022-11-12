@@ -6,14 +6,7 @@ nav.top-nav {
     left: 0px;
     bottom: 815px;
     z-index: 5;
-    /* box-shadow: 0px 4px 4px #ff5349; */
 }
-
-/* nav [aria-current="page"] {
-    background-color: #bbb;
-    color: #000;
-    border-bottom: .25em solid #444;
-} */
 
 main {
     margin-top: 220px;
@@ -45,14 +38,7 @@ main {
 
 #projectheader {
     color: #056b6b;
-    /* text-align: center; */
 }
-
-/* #homephoto {
-    margin-left: 39em;
-    margin-top: -180px;
-    border-radius: 40px;
-} */
 
 .homephoto {
     margin-top: -90px;
@@ -86,9 +72,7 @@ nav.top-nav a:active {
 
 nav.top-nav li {
     display: inline-block;
-    /* font-family: sans-serif; */
     font-family: Helvetica, sans-serif;
-    /* font-weight: bold; */
     font-size: 18px;
     margin: 20px;
     user-select: none;
@@ -244,7 +228,6 @@ nav.top-nav li:hover .pulldown-menu {
 #project1-linktext {
     font-size: 24px;
     margin-left: 35px;
-    /* margin-left: 100px; */
 }
 
 .project1-link a:link {
@@ -341,7 +324,6 @@ nav.top-nav li:hover .pulldown-menu {
 #project2-linktext {
     font-size: 24px;
     margin-left: 105px;
-    /* margin-left: 100px; */
 }
 
 .project2-link a:link {
@@ -385,7 +367,6 @@ nav.top-nav li:hover .pulldown-menu {
 #resumelinktext {
     font-family: Helvetica, sans-serif;
     font-size: 18px;
-    /* margin-left: 100px; */
 }
 
 .resumelink a:link {
@@ -436,7 +417,6 @@ nav.top-nav li:hover .pulldown-menu {
 #linkedinlinktext {
     font-family: Helvetica, sans-serif;
     font-size: 18px;
-    /* margin-left: 100px; */
 }
 
 .linkedinlink a:link {

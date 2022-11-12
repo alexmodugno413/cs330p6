@@ -5,7 +5,7 @@
         <title>Contact</title>
     </head>
     <body>
-        <nav role="navigation" class="top-nav">
+        <nav role="navigation" class="top-nav" aria-label="mainmenulabel">
             <ul>
                 <li tabindex="0" id="name">Alexander Modugno</li>
                 <!-- <li tabindex="1" id="notseen">______________________</li> -->
@@ -15,14 +15,13 @@
                 <li nav aria-current="page" tabindex="5"><a href="contact.html" style="color: orange">CONTACT</a></li>
             </ul>
         </nav>
-        <main>
+        <main aria-label="mainsection">
             <h1 id="contactheader">Please feel free to reach out! Here is my contact information.</h1>
             <br>
-            <div>
+            <div aria-label="contact-professional-photo">
                 <img id="contactphoto" src="contactphoto.png" alt="Professional photo of of Alex Modugno. He has brown hair and brown eyes, and is wearing a blue shirt. There is greenery in the background.">
             </div>
-            <div class="contact-questions">
-                <!-- <p id="contact-question-intro"><b><i>View questions/answers related to my resume:</i></b></p> -->
+            <div class="contact-questions" aria-label="contact-questions">
                 <p class="contact-question"><b>Full Name:</b></p>
                 <p class="contact-answer">Alexander Modugno</p>
                 <p class="contact-question"><b>School Email:</b></p>
@@ -34,8 +33,7 @@
                 <p class="contact-question"><b>Address:</b></p>
                 <p class="contact-answer">2149 Sherman Ave, Evanston, IL 60201</p>
             </div>
-            <!-- contact form -->
-            <div class="contact-form">
+            <div class="contact-form" aria-label="email-contact-form">
                 <p id="contact-form-intro"><b><i>Email shortcut:</i></b></p>
                 <fieldset aria-label="message_box" action="mailto:alexmodugno413@gmail.com" method="post" enctype="text/plain">
                     <legend><b>Your Information</b></legend>
