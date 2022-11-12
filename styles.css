@@ -1,3 +1,5 @@
+/* homepage */
+
 nav.top-nav {
     background-color: #088F8F;
     position: fixed;
@@ -346,7 +348,7 @@ nav.top-nav li:hover .pulldown-menu {
     color: orange;
 }
 
-/* other page */
+/* resume page */
 
 #resumeheader {
     margin-top: -50px;
@@ -408,6 +410,8 @@ nav.top-nav li:hover .pulldown-menu {
     font-family: Helvetica, sans-serif;
     font-size: 18px;
 }
+
+/* biography page */
 
 #biographyheader {
     margin-top: -50px;
@@ -509,6 +513,8 @@ nav.top-nav li:hover .pulldown-menu {
     background-color: rgb(187, 184, 184);
     border-color: black;
 }
+
+/* contact page */
 
 #contactheader {
     margin-top: -50px;
