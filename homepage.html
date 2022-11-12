@@ -7,17 +7,17 @@
         <title>Home</title>
     </head>
     <body>
-        <nav role="navigation" class="top-nav">
-            <ul>
+        <nav role="navigation" class="top-nav" aria-labelledby="mainmenulabel">
+            <ul role="menubar">
                 <li tabindex="0" id="name">Alexander Modugno</li>
                 <!-- <li tabindex="1" id="notseen">______________________</li> -->
-                <li nav aria-current="page" tabindex="2"><a href="homepage.html" style="color: orange">HOME</a></li>
-                <li tabindex="3"><a href="resume.html">RESUME</a></li>
-                <li tabindex="4"><a href="biography.html">BIOGRAPHY</a></li>
-                <li tabindex="5"><a href="contact.html">CONTACT</a></li>
+                <li role="menuitem" nav aria-current="page" tabindex="2"><a href="homepage.html" style="color: orange">HOME</a></li>
+                <li role="menuitem" tabindex="3"><a href="resume.html">RESUME</a></li>
+                <li role="menuitem" tabindex="4"><a href="biography.html">BIOGRAPHY</a></li>
+                <li role="menuitem" tabindex="5"><a href="contact.html">CONTACT</a></li>
             </ul>
         </nav>
-        <main>
+        <main role="main">
             <div class="homephoto">
                 <img id="professionalphoto" src="professionalphoto.png" alt="Professional photo of of Alex Modugno. He has brown hair and brown eyes, and is wearing a blue shirt. There is greenery in the background.">
             </div>
@@ -27,9 +27,7 @@
                 <br>
                 <h2 id="projectheader">Scroll down to see examples of interesting projects I've worked on</h2> 
             </div>
-            <!-- <h2>Add animation/slide show here</h2> -->
             <div class="projectinfo">
-                <!-- <h2 id="projectheader">Scroll down to see examples of interesting projects I've worked on</h2> -->
                 <div class="project1">
                     <h2>Assistive device for arthritis - created for an Engineering Design class at Northwestern</h2>
                     <div id="project1-text">
@@ -42,7 +40,7 @@
                     </div>
                     <div id="project1-images">
                         <h3 id="project1-design-header"><u>Design images and demo</u></h3>
-                        <img id="project1-image" src="project1-image1.png" alt="Add more details">
+                        <img id="project1-image" src="project1-image1.png" alt="Visual image of the assistive device. The text on the page explains what the device looks like well.">
                         <video id="project1-video" width="320" height="240" muted>
                             <source src="project1-video.mp4" type="video/mp4">
                             Your browser doesn't support the video tag.
@@ -71,7 +69,7 @@
                     </div>
                     <div id="project2-images">
                         <h3 id="project2-design-header"><u>Map diagram - example of time map / distance map</u></h3>
-                        <img id="project2-image" src="project2-image1.png" alt="Add more details">
+                        <img id="project2-image" src="project2-image1.png" alt="A map of the landmarks described in the goal of the assignment. The map contains 7 dots representing different cities with lines drawn between them. The second image is a Python dictionary with keys of a landmark and values of a dictionary of keys of other landmarks with values of their distances from the original landmark.">
                         <div>
                             <button id="project2-button1" onclick="previousImage2()"><span class="material-icons">arrow_back</span></button>
                             <button id="project2-button2" onclick="nextImage2()"><span class="material-icons">arrow_forward</span></button>
