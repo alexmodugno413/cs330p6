@@ -104,42 +104,6 @@ nav.top-nav li:hover .pulldown-menu {
     display: block;
 }
 
-/* #projectinfo-button1 {
-    background-color: orange; 
-    margin-left: 10px;
-    border: none;
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-family: Helvetica, sans-serif;
-    font-size: 20px;
-    border-radius: 20px;
-} */
-
-/* #projectinfo-button2 {
-    background-color: #4CAF50; 
-    margin-left: 10px;
-    border: none;
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-family: Helvetica, sans-serif;
-    font-size: 20px;
-    border-radius: 20px;
-} */
-
-/* #projectinfo-button1:hover {
-    background-color: #4CAF50;
-} */
-
-/* #projectinfo-button2:hover {
-    background-color: orange;
-} */
-
 .projectinfo {
     margin-top: 200px;
 }
