@@ -1,13 +1,15 @@
 /* homepage */
 
 nav.top-nav {
-    background-color: #088F8F;
     position: fixed;
+    min-height: 105px;
+    max-height: 105px;
+    background-color: #088F8F;
     top: 0px;
     right: 0px;
     left: 0px;
     bottom: 815px;
-    z-index: 5;
+    z-index: 1;
 }
 
 main {
